@@ -9,7 +9,6 @@ const formatDate = (date) =>
 
 function CityItem({ city }) {
   const { cityName, emoji, date } = city;
-  console.log("🚀CHECK  date =", date);
 
   return (
     <div className={styles.cityItem}>
