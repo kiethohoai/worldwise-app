@@ -3,14 +3,9 @@ import styles from "./Map.module.css";
 
 function Map() {
   const [searchParmas, setSearchParams] = useSearchParams();
-  console.log("🚀CHECK  searchParmas, setSearchParams =", searchParmas, setSearchParams);
-
   const navigate = useNavigate();
-
   const lat = searchParmas.get("lat");
   const lng = searchParmas.get("lng");
-  console.log("🚀CHECK  lat =", lat);
-  console.log("🚀CHECK  lng =", lng);
 
   return (
     <div className={styles.mapContainer} onClick={() => navigate("form")}>

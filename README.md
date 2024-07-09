@@ -27,3 +27,4 @@
 007 Thinking In React Advanced State Management
 008 Back to WorldWise Creating a CitiesContext
 009 Consuming the CitiesContext
+010 Finishing the City View
